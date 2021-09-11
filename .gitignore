@@ -59,10 +59,9 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
-## Playgroundstimeline.xctimeorkspace
-
-# Swift Package Manager
 ### Xcode Patch ###
+project.pbxproj
+UserInterfaceState.xuserstate
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
