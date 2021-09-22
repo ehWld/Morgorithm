@@ -23,7 +23,7 @@ bool isVow[20];
 
 void dfs(int n, int vow, int con, string password) {
     password += arr[n];
-    if(arr[n] == "a" || arr[n] == "e" || arr[n] == "i" || arr[n] == "o" || arr[n] == "u") vow+=;
+    if(arr[n] == "a" || arr[n] == "e" || arr[n] == "i" || arr[n] == "o" || arr[n] == "u") vow++;
     else con++;
 
     if(password.length() == L) {
@@ -32,7 +32,7 @@ void dfs(int n, int vow, int con, string password) {
     }
 
     for(int i=n+1; i<C; i++) {
-        
+        dfs(i, vow, con, password);
     }
 }
 
@@ -44,6 +44,9 @@ int main() {
 
     cin >> L >> C;
     for(int i=0; i<C; i++) cin >> arr[i];
+    sort(arr, arr+C);
+
+    for(int i=0; i<C; i++) dfs(i, 0, 0, "");
 
     return 0;
 }
