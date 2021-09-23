@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		319F7D9926FB793A000D1D3A /* 1759.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319F7D9826FB793A000D1D3A /* 1759.cpp */; };
+		319F7DA226FCAF21000D1D3A /* 2580.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319F7DA126FCAF21000D1D3A /* 2580.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +39,9 @@
 		319F7D9426FB7186000D1D3A /* 14888.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14888.cpp; sourceTree = "<group>"; };
 		319F7D9626FB75A3000D1D3A /* 15650.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15650.cpp; sourceTree = "<group>"; };
 		319F7D9826FB793A000D1D3A /* 1759.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1759.cpp; sourceTree = "<group>"; };
+		319F7D9D26FC9BB6000D1D3A /* 15651.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15651.cpp; sourceTree = "<group>"; };
+		319F7D9F26FCA8DF000D1D3A /* 6603.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6603.cpp; sourceTree = "<group>"; };
+		319F7DA126FCAF21000D1D3A /* 2580.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2580.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		3140C12F26ED0CF300234E36 /* 🍁September */ = {
 			isa = PBXGroup;
 			children = (
+				319F7D9C26FC9BA3000D1D3A /* 0923 */,
 				319F7D9126FB69CE000D1D3A /* 0922 */,
 				3140C13A26EDB25F00234E36 /* 0912 */,
 				3140C13226ED11EA00234E36 /* 0911 */,
@@ -120,6 +124,16 @@
 				319F7D9826FB793A000D1D3A /* 1759.cpp */,
 			);
 			path = 0922;
+			sourceTree = "<group>";
+		};
+		319F7D9C26FC9BA3000D1D3A /* 0923 */ = {
+			isa = PBXGroup;
+			children = (
+				319F7D9D26FC9BB6000D1D3A /* 15651.cpp */,
+				319F7D9F26FCA8DF000D1D3A /* 6603.cpp */,
+				319F7DA126FCAF21000D1D3A /* 2580.cpp */,
+			);
+			path = 0923;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319F7D9926FB793A000D1D3A /* 1759.cpp in Sources */,
+				319F7DA226FCAF21000D1D3A /* 2580.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
