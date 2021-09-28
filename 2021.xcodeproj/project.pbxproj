@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		312F3F35270092170061A4B6 /* 20056.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312F3F34270092170061A4B6 /* 20056.cpp */; };
+		312F3F7C270379280061A4B6 /* codeforce774_D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312F3F7B270379280061A4B6 /* codeforce774_D.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,11 @@
 		312F3F2C26FDF8250061A4B6 /* 9663.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9663.cpp; sourceTree = "<group>"; };
 		312F3F3126FF61780061A4B6 /* kakao_key.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kakao_key.cpp; sourceTree = "<group>"; };
 		312F3F34270092170061A4B6 /* 20056.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20056.cpp; sourceTree = "<group>"; };
+		312F3F732703637C0061A4B6 /* codeforce774_A.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeforce774_A.cpp; sourceTree = "<group>"; };
+		312F3F75270369650061A4B6 /* codefoce774_B.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codefoce774_B.cpp; sourceTree = "<group>"; };
+		312F3F7727036D750061A4B6 /* codeforce774_C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeforce774_C.cpp; sourceTree = "<group>"; };
+		312F3F79270375110061A4B6 /* codeforce774_E1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeforce774_E1.cpp; sourceTree = "<group>"; };
+		312F3F7B270379280061A4B6 /* codeforce774_D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeforce774_D.cpp; sourceTree = "<group>"; };
 		3140C12526ED0C7100234E36 /* 2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2021; sourceTree = BUILT_PRODUCTS_DIR; };
 		3140C12826ED0C7100234E36 /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
 		3140C13026ED0E4E00234E36 /* template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = template.swift; sourceTree = "<group>"; };
@@ -85,6 +90,11 @@
 		312F3F72270363210061A4B6 /* 0928 */ = {
 			isa = PBXGroup;
 			children = (
+				312F3F732703637C0061A4B6 /* codeforce774_A.cpp */,
+				312F3F75270369650061A4B6 /* codefoce774_B.cpp */,
+				312F3F7727036D750061A4B6 /* codeforce774_C.cpp */,
+				312F3F79270375110061A4B6 /* codeforce774_E1.cpp */,
+				312F3F7B270379280061A4B6 /* codeforce774_D.cpp */,
 			);
 			path = 0928;
 			sourceTree = "<group>";
@@ -231,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312F3F35270092170061A4B6 /* 20056.cpp in Sources */,
+				312F3F7C270379280061A4B6 /* codeforce774_D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
