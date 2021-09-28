@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		312F3F2D26FDF8250061A4B6 /* 9663.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312F3F2C26FDF8250061A4B6 /* 9663.cpp */; };
+		312F3F35270092170061A4B6 /* 20056.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312F3F34270092170061A4B6 /* 20056.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		312F3F2C26FDF8250061A4B6 /* 9663.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9663.cpp; sourceTree = "<group>"; };
+		312F3F3126FF61780061A4B6 /* kakao_key.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kakao_key.cpp; sourceTree = "<group>"; };
+		312F3F34270092170061A4B6 /* 20056.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20056.cpp; sourceTree = "<group>"; };
 		3140C12526ED0C7100234E36 /* 2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2021; sourceTree = BUILT_PRODUCTS_DIR; };
 		3140C12826ED0C7100234E36 /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
 		3140C13026ED0E4E00234E36 /* template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = template.swift; sourceTree = "<group>"; };
@@ -64,6 +66,29 @@
 			path = 0924;
 			sourceTree = "<group>";
 		};
+		312F3F3026FF614E0061A4B6 /* 0925 */ = {
+			isa = PBXGroup;
+			children = (
+				312F3F3126FF61780061A4B6 /* kakao_key.cpp */,
+			);
+			path = 0925;
+			sourceTree = "<group>";
+		};
+		312F3F33270092080061A4B6 /* 0926 */ = {
+			isa = PBXGroup;
+			children = (
+				312F3F34270092170061A4B6 /* 20056.cpp */,
+			);
+			path = 0926;
+			sourceTree = "<group>";
+		};
+		312F3F72270363210061A4B6 /* 0928 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 0928;
+			sourceTree = "<group>";
+		};
 		3140C11C26ED0C7100234E36 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +118,9 @@
 		3140C12F26ED0CF300234E36 /* 🍁September */ = {
 			isa = PBXGroup;
 			children = (
+				312F3F72270363210061A4B6 /* 0928 */,
+				312F3F33270092080061A4B6 /* 0926 */,
+				312F3F3026FF614E0061A4B6 /* 0925 */,
 				312F3F2B26FDF8130061A4B6 /* 0924 */,
 				319F7D9C26FC9BA3000D1D3A /* 0923 */,
 				319F7D9126FB69CE000D1D3A /* 0922 */,
@@ -203,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312F3F2D26FDF8250061A4B6 /* 9663.cpp in Sources */,
+				312F3F35270092170061A4B6 /* 20056.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
