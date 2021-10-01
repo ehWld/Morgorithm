@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		312F3F7C270379280061A4B6 /* codeforce774_D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312F3F7B270379280061A4B6 /* codeforce774_D.cpp */; };
+		313A61FA27076AA100E18CE3 /* 10282.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313A61F927076AA100E18CE3 /* 10282.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +31,8 @@
 		312F3F7727036D750061A4B6 /* codeforce774_C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeforce774_C.cpp; sourceTree = "<group>"; };
 		312F3F79270375110061A4B6 /* codeforce774_E1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeforce774_E1.cpp; sourceTree = "<group>"; };
 		312F3F7B270379280061A4B6 /* codeforce774_D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeforce774_D.cpp; sourceTree = "<group>"; };
+		313A61F62707457B00E18CE3 /* 7682.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 7682.cpp; sourceTree = "<group>"; };
+		313A61F927076AA100E18CE3 /* 10282.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10282.cpp; sourceTree = "<group>"; };
 		3140C12526ED0C7100234E36 /* 2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2021; sourceTree = BUILT_PRODUCTS_DIR; };
 		3140C12826ED0C7100234E36 /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
 		3140C13026ED0E4E00234E36 /* template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = template.swift; sourceTree = "<group>"; };
@@ -99,6 +101,23 @@
 			path = 0928;
 			sourceTree = "<group>";
 		};
+		313A61F52707428C00E18CE3 /* 🎃October */ = {
+			isa = PBXGroup;
+			children = (
+				313A61F82707458400E18CE3 /* 1001 */,
+			);
+			path = "🎃October";
+			sourceTree = "<group>";
+		};
+		313A61F82707458400E18CE3 /* 1001 */ = {
+			isa = PBXGroup;
+			children = (
+				313A61F62707457B00E18CE3 /* 7682.cpp */,
+				313A61F927076AA100E18CE3 /* 10282.cpp */,
+			);
+			path = 1001;
+			sourceTree = "<group>";
+		};
 		3140C11C26ED0C7100234E36 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +137,7 @@
 		3140C12726ED0C7100234E36 /* 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				313A61F52707428C00E18CE3 /* 🎃October */,
 				3140C12F26ED0CF300234E36 /* 🍁September */,
 				3140C12826ED0C7100234E36 /* template.cpp */,
 				3140C13026ED0E4E00234E36 /* template.swift */,
@@ -241,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312F3F7C270379280061A4B6 /* codeforce774_D.cpp in Sources */,
+				313A61FA27076AA100E18CE3 /* 10282.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
