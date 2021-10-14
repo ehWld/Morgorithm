@@ -35,7 +35,8 @@ int main() {
             ans =  ( ans * (a % 10) )% 10;
         }
 
-        cout << ans << '\n';
+        if(ans == 0) cout << 10 << '\n';
+        else cout << ans << '\n';
     }
 
     return 0;
