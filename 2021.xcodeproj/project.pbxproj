@@ -58,6 +58,10 @@
 		31B23D6427187B5800850C6F /* 1009.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1009.cpp; sourceTree = "<group>"; };
 		31B23D782719BF7C00850C6F /* 1461.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1461.swift; sourceTree = "<group>"; };
 		31B23D7A271C0BE000850C6F /* 1374.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1374.swift; sourceTree = "<group>"; };
+		31B23DA4271F0F5600850C6F /* regexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regexTest.swift; sourceTree = "<group>"; };
+		31F6F24F27256ACE00DC1EF2 /* 19845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19845.swift; sourceTree = "<group>"; };
+		31F6F25127256DE500DC1EF2 /* 3079.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3079.cpp; sourceTree = "<group>"; };
+		31F6F25327256E9D00DC1EF2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 		313A61F52707428C00E18CE3 /* 🎃October */ = {
 			isa = PBXGroup;
 			children = (
+				31F6F24B2725657100DC1EF2 /* 1024 */,
+				31B23DA3271F0F4900850C6F /* 1019 */,
 				31B23D772719BF4D00850C6F /* 1017 */,
 				31B23D6327187B4A00850C6F /* 1014 */,
 				31B23D502717253D00850C6F /* 1013 */,
@@ -258,6 +264,24 @@
 				31B23D7A271C0BE000850C6F /* 1374.swift */,
 			);
 			path = 1017;
+			sourceTree = "<group>";
+		};
+		31B23DA3271F0F4900850C6F /* 1019 */ = {
+			isa = PBXGroup;
+			children = (
+				31B23DA4271F0F5600850C6F /* regexTest.swift */,
+			);
+			path = 1019;
+			sourceTree = "<group>";
+		};
+		31F6F24B2725657100DC1EF2 /* 1024 */ = {
+			isa = PBXGroup;
+			children = (
+				31F6F24F27256ACE00DC1EF2 /* 19845.swift */,
+				31F6F25327256E9D00DC1EF2 /* main.swift */,
+				31F6F25127256DE500DC1EF2 /* 3079.cpp */,
+			);
+			path = 1024;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +471,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -465,6 +490,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
