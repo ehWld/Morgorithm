@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		31858587272C4B76003D7826 /* maine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31858586272C4B76003D7826 /* maine.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		3140C12326ED0C7100234E36 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -51,7 +47,7 @@
 		3140C13D26EDDDA600234E36 /* nexton_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nexton_2.cpp; sourceTree = "<group>"; };
 		31703BBF27113BA600196F2A /* 2448.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2448.cpp; sourceTree = "<group>"; };
 		31858584272C287D003D7826 /* 2469.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2469.swift; sourceTree = "<group>"; };
-		31858586272C4B76003D7826 /* maine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maine.swift; sourceTree = "<group>"; };
+		31858586272C4B76003D7826 /* 15927.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15927.swift; sourceTree = "<group>"; };
 		319F6A1D272847CF0017419F /* 9093.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9093.swift; sourceTree = "<group>"; };
 		319F6A1F27284DB30017419F /* 17413.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17413.swift; sourceTree = "<group>"; };
 		319F7D9226FB69DE000D1D3A /* 15649.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15649.cpp; sourceTree = "<group>"; };
@@ -233,7 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				31858584272C287D003D7826 /* 2469.swift */,
-				31858586272C4B76003D7826 /* maine.swift */,
+				31858586272C4B76003D7826 /* 15927.swift */,
 			);
 			path = 1029;
 			sourceTree = "<group>";
@@ -367,7 +363,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31858587272C4B76003D7826 /* maine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
