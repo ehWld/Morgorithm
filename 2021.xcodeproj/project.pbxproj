@@ -19,6 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		311A0A9F27305229005AEAB1 /* 1068.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1068.cpp; sourceTree = "<group>"; };
+		311A0AA227305B98005AEAB1 /* 1167.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1167.cpp; sourceTree = "<group>"; };
 		312F3F2C26FDF8250061A4B6 /* 9663.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9663.cpp; sourceTree = "<group>"; };
 		312F3F3126FF61780061A4B6 /* kakao_key.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kakao_key.cpp; sourceTree = "<group>"; };
 		312F3F34270092170061A4B6 /* 20056.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20056.cpp; sourceTree = "<group>"; };
@@ -78,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311A0A9E27305096005AEAB1 /* ☃️November */ = {
+			isa = PBXGroup;
+			children = (
+				311A0AA127305230005AEAB1 /* 1101 */,
+			);
+			path = "☃️November";
+			sourceTree = "<group>";
+		};
+		311A0AA127305230005AEAB1 /* 1101 */ = {
+			isa = PBXGroup;
+			children = (
+				311A0A9F27305229005AEAB1 /* 1068.cpp */,
+				311A0AA227305B98005AEAB1 /* 1167.cpp */,
+			);
+			path = 1101;
+			sourceTree = "<group>";
+		};
 		312F3F2B26FDF8130061A4B6 /* 0924 */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +189,7 @@
 		3140C12726ED0C7100234E36 /* 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				311A0A9E27305096005AEAB1 /* ☃️November */,
 				313A61F52707428C00E18CE3 /* 🎃October */,
 				3140C12F26ED0CF300234E36 /* 🍁September */,
 				3140C12826ED0C7100234E36 /* template.cpp */,
