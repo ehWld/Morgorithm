@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		31AED8D527357FD300310B96 /* 3190.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31AED8D427357FD300310B96 /* 3190.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		3140C12326ED0C7100234E36 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +19,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		310125842736E27F00E43160 /* 1662.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1662.cpp; sourceTree = "<group>"; };
+		310125862736EF6B00E43160 /* 2812.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2812.cpp; sourceTree = "<group>"; };
+		310125882736F7DA00E43160 /* 2812.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2812.swift; sourceTree = "<group>"; };
+		3101258A2736F9CF00E43160 /* 1662.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1662.swift; sourceTree = "<group>"; };
 		310D80D927319D9600F15F4F /* 12852.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12852.cpp; sourceTree = "<group>"; };
 		310D80DB2731A3DD00F15F4F /* 1976.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1976.cpp; sourceTree = "<group>"; };
 		311A0A9F27305229005AEAB1 /* 1068.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1068.cpp; sourceTree = "<group>"; };
@@ -89,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310125832736E26A00E43160 /* 1106 */ = {
+			isa = PBXGroup;
+			children = (
+				310125842736E27F00E43160 /* 1662.cpp */,
+				310125862736EF6B00E43160 /* 2812.cpp */,
+				310125882736F7DA00E43160 /* 2812.swift */,
+				3101258A2736F9CF00E43160 /* 1662.swift */,
+			);
+			path = 1106;
+			sourceTree = "<group>";
+		};
 		310D80D827319C2400F15F4F /* 1102 */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +112,7 @@
 		311A0A9E27305096005AEAB1 /* ☃️November */ = {
 			isa = PBXGroup;
 			children = (
+				310125832736E26A00E43160 /* 1106 */,
 				31AED8CF273572D500310B96 /* 1105 */,
 				310D80D827319C2400F15F4F /* 1102 */,
 				311A0AA127305230005AEAB1 /* 1101 */,
@@ -382,7 +394,7 @@
 		3140C11D26ED0C7100234E36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					3140C12426ED0C7100234E36 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -413,7 +425,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31AED8D527357FD300310B96 /* 3190.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P726VCUWV8;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -554,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P726VCUWV8;
 				ENABLE_HARDENED_RUNTIME = YES;
