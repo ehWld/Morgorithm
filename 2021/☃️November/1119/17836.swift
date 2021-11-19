@@ -28,7 +28,7 @@ func main() {
     var arr = [[Int]]()
     var visited = [[Bool]](repeating: [Bool](repeating: false, count: C), count: R)
 
-    for r in 0..<R {
+    for _ in 0..<R {
         input = readInt()
         arr.append(input)
     }

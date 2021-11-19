@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		317FB5FD2747ED99005DF3A3 /* 17836.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FB5FC2747ED99005DF3A3 /* 17836.swift */; };
-		317FB6002747EED7005DF3A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FB5FE2747EE89005DF3A3 /* main.swift */; };
+		317FB60227480116005DF3A3 /* 1647.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 317FB60127480116005DF3A3 /* 1647.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +61,7 @@
 		31703BBF27113BA600196F2A /* 2448.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2448.cpp; sourceTree = "<group>"; };
 		317FB5FC2747ED99005DF3A3 /* 17836.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17836.swift; sourceTree = "<group>"; };
 		317FB5FE2747EE89005DF3A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		317FB60127480116005DF3A3 /* 1647.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1647.cpp; sourceTree = "<group>"; };
 		31858584272C287D003D7826 /* 2469.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2469.swift; sourceTree = "<group>"; };
 		31858586272C4B76003D7826 /* 15927.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15927.swift; sourceTree = "<group>"; };
 		319F6A1D272847CF0017419F /* 9093.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9093.swift; sourceTree = "<group>"; };
@@ -283,6 +283,7 @@
 			children = (
 				3161EF192746A38D00B922DD /* 17836.cpp */,
 				317FB5FC2747ED99005DF3A3 /* 17836.swift */,
+				317FB60127480116005DF3A3 /* 1647.cpp */,
 			);
 			path = 1119;
 			sourceTree = "<group>";
@@ -444,8 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				317FB6002747EED7005DF3A3 /* main.swift in Sources */,
-				317FB5FD2747ED99005DF3A3 /* 17836.swift in Sources */,
+				317FB60227480116005DF3A3 /* 1647.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
