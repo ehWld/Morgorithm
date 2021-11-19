@@ -12,6 +12,7 @@ let MOD = 1e9 + 7
 
 /*[😈][🔮][🦔]*/
 
+//let input2 = readStr()[0].map{$0}
 let input = Array(readStr()[0])
 let N = input.count
 var st = [Int]()
