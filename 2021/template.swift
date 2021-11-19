@@ -11,3 +11,7 @@ let INF = INT32_MAX
 let MOD = 1e9 + 7
 
 /*[😈][🔮][🦔]*/
+
+func solve() {
+    
+}
