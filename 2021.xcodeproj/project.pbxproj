@@ -28,6 +28,7 @@
 		310125882736F7DA00E43160 /* 2812.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2812.swift; sourceTree = "<group>"; };
 		3101258A2736F9CF00E43160 /* 1662.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1662.swift; sourceTree = "<group>"; };
 		310297CD2767195100137931 /* farthestNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = farthestNode.swift; sourceTree = "<group>"; };
+		310297D027671D3B00137931 /* wordConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordConversion.swift; sourceTree = "<group>"; };
 		310D80D927319D9600F15F4F /* 12852.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12852.cpp; sourceTree = "<group>"; };
 		310D80DB2731A3DD00F15F4F /* 1976.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1976.cpp; sourceTree = "<group>"; };
 		311A0A9F27305229005AEAB1 /* 1068.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1068.cpp; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				310297CD2767195100137931 /* farthestNode.swift */,
+				310297D027671D3B00137931 /* wordConversion.swift */,
 			);
 			path = 1213;
 			sourceTree = "<group>";
