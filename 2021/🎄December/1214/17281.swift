@@ -27,7 +27,7 @@ func play() -> Int {
     var ru = [false, false, false, false]
 
     while ining < N {
-        switch arr[ining][current] {
+        switch arr[ining][current-1] {
         case 0 :
             outCount += 1
         case 1:
@@ -69,8 +69,7 @@ func play() -> Int {
 
 func dfs(_ n: Int) {
     if n == 10 {
-        let score = play()
-        ans = max(ans, score)
+        ans = max(ans, play())
         return
     }
 
@@ -90,7 +89,7 @@ func dfs(_ n: Int) {
 func solve() {
     N = readInt()[0]
     for _ in 0..<N {
-        arr.append([0] + readInt())
+        arr.append(readInt())
     }
 
     order[4] = 1
