@@ -85,6 +85,7 @@
 		319F7D9D26FC9BB6000D1D3A /* 15651.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15651.cpp; sourceTree = "<group>"; };
 		319F7D9F26FCA8DF000D1D3A /* 6603.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6603.cpp; sourceTree = "<group>"; };
 		319F7DA126FCAF21000D1D3A /* 2580.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2580.cpp; sourceTree = "<group>"; };
+		31A337442769ED2800849C83 /* 1756.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1756.swift; sourceTree = "<group>"; };
 		31AED8D02735738100310B96 /* 13458.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13458.cpp; sourceTree = "<group>"; };
 		31AED8D22735754400310B96 /* 14501.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14501.cpp; sourceTree = "<group>"; };
 		31AED8D427357FD300310B96 /* 3190.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3190.cpp; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 		310297CC2767190900137931 /* 🎄December */ = {
 			isa = PBXGroup;
 			children = (
+				31A337432769ED1800849C83 /* 1215 */,
 				310297D72767AA4F00137931 /* 1214 */,
 				310297CF2767195600137931 /* 1213 */,
 			);
@@ -395,6 +397,14 @@
 				319F7DA126FCAF21000D1D3A /* 2580.cpp */,
 			);
 			path = 0923;
+			sourceTree = "<group>";
+		};
+		31A337432769ED1800849C83 /* 1215 */ = {
+			isa = PBXGroup;
+			children = (
+				31A337442769ED2800849C83 /* 1756.swift */,
+			);
+			path = 1215;
 			sourceTree = "<group>";
 		};
 		31AED8CF273572D500310B96 /* 1105 */ = {
