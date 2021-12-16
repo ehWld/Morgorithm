@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		31A3374E276BBD5B00849C83 /* pathFindGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31A3374D276BBD5B00849C83 /* pathFindGame.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		3140C12326ED0C7100234E36 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -85,6 +89,7 @@
 		31A33746276A690500849C83 /* 1107.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1107.swift; sourceTree = "<group>"; };
 		31A33749276BB05900849C83 /* connectIsland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectIsland.cpp; sourceTree = "<group>"; };
 		31A3374B276BB9F900849C83 /* connectIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectIsland.swift; sourceTree = "<group>"; };
+		31A3374D276BBD5B00849C83 /* pathFindGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pathFindGame.cpp; sourceTree = "<group>"; };
 		31AED8D02735738100310B96 /* 13458.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13458.cpp; sourceTree = "<group>"; };
 		31AED8D22735754400310B96 /* 14501.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14501.cpp; sourceTree = "<group>"; };
 		31AED8D427357FD300310B96 /* 3190.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3190.cpp; sourceTree = "<group>"; };
@@ -413,6 +418,7 @@
 			children = (
 				31A33749276BB05900849C83 /* connectIsland.cpp */,
 				31A3374B276BB9F900849C83 /* connectIsland.swift */,
+				31A3374D276BBD5B00849C83 /* pathFindGame.cpp */,
 			);
 			path = 1216;
 			sourceTree = "<group>";
@@ -543,6 +549,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A3374E276BBD5B00849C83 /* pathFindGame.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
