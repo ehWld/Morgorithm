@@ -84,6 +84,7 @@
 		31A337442769ED2800849C83 /* 1756.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1756.swift; sourceTree = "<group>"; };
 		31A33746276A690500849C83 /* 1107.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1107.swift; sourceTree = "<group>"; };
 		31A33749276BB05900849C83 /* connectIsland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectIsland.cpp; sourceTree = "<group>"; };
+		31A3374B276BB9F900849C83 /* connectIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectIsland.swift; sourceTree = "<group>"; };
 		31AED8D02735738100310B96 /* 13458.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13458.cpp; sourceTree = "<group>"; };
 		31AED8D22735754400310B96 /* 14501.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14501.cpp; sourceTree = "<group>"; };
 		31AED8D427357FD300310B96 /* 3190.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3190.cpp; sourceTree = "<group>"; };
@@ -411,6 +412,7 @@
 			isa = PBXGroup;
 			children = (
 				31A33749276BB05900849C83 /* connectIsland.cpp */,
+				31A3374B276BB9F900849C83 /* connectIsland.swift */,
 			);
 			path = 1216;
 			sourceTree = "<group>";
