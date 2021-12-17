@@ -6,11 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		31A33752276C997D00849C83 /* moveBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A33751276C997D00849C83 /* moveBlock.swift */; };
-		31A33753276CA96400849C83 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FB5FE2747EE89005DF3A3 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		3140C12326ED0C7100234E36 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -93,6 +88,7 @@
 		31A3374D276BBD5B00849C83 /* pathFindGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pathFindGame.cpp; sourceTree = "<group>"; };
 		31A3374F276BD29800849C83 /* pathFindGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathFindGame.swift; sourceTree = "<group>"; };
 		31A33751276C997D00849C83 /* moveBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveBlock.swift; sourceTree = "<group>"; };
+		31A33754276CABFC00849C83 /* columnAndPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = columnAndPlane.swift; sourceTree = "<group>"; };
 		31AED8D02735738100310B96 /* 13458.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13458.cpp; sourceTree = "<group>"; };
 		31AED8D22735754400310B96 /* 14501.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14501.cpp; sourceTree = "<group>"; };
 		31AED8D427357FD300310B96 /* 3190.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3190.cpp; sourceTree = "<group>"; };
@@ -424,6 +420,7 @@
 				31A3374D276BBD5B00849C83 /* pathFindGame.cpp */,
 				31A3374F276BD29800849C83 /* pathFindGame.swift */,
 				31A33751276C997D00849C83 /* moveBlock.swift */,
+				31A33754276CABFC00849C83 /* columnAndPlane.swift */,
 			);
 			path = 1216;
 			sourceTree = "<group>";
@@ -554,8 +551,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A33753276CA96400849C83 /* main.swift in Sources */,
-				31A33752276C997D00849C83 /* moveBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
