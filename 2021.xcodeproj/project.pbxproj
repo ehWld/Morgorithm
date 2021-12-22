@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31A337612772FEA300849C83 /* 2583.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A337602772FEA300849C83 /* 2583.swift */; };
 		31A337622773032E00849C83 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FB5FE2747EE89005DF3A3 /* main.swift */; };
+		31A3376427730B0900849C83 /* 2589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3376327730B0900849C83 /* 2589.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +97,7 @@
 		31A33758276E4E1A00849C83 /* roomEscape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roomEscape.cpp; sourceTree = "<group>"; };
 		31A3375B276F9A7400849C83 /* editTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editTable.swift; sourceTree = "<group>"; };
 		31A337602772FEA300849C83 /* 2583.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2583.swift; sourceTree = "<group>"; };
+		31A3376327730B0900849C83 /* 2589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2589.swift; sourceTree = "<group>"; };
 		31AED8D02735738100310B96 /* 13458.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13458.cpp; sourceTree = "<group>"; };
 		31AED8D22735754400310B96 /* 14501.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14501.cpp; sourceTree = "<group>"; };
 		31AED8D427357FD300310B96 /* 3190.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3190.cpp; sourceTree = "<group>"; };
@@ -456,6 +457,7 @@
 			isa = PBXGroup;
 			children = (
 				31A337602772FEA300849C83 /* 2583.swift */,
+				31A3376327730B0900849C83 /* 2589.swift */,
 			);
 			path = 1222;
 			sourceTree = "<group>";
@@ -587,7 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A337622773032E00849C83 /* main.swift in Sources */,
-				31A337612772FEA300849C83 /* 2583.swift in Sources */,
+				31A3376427730B0900849C83 /* 2589.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
