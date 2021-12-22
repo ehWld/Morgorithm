@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31A3375E277093D000849C83 /* template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3140C12826ED0C7100234E36 /* template.cpp */; };
+		31A337612772FEA300849C83 /* 2583.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A337602772FEA300849C83 /* 2583.swift */; };
+		31A337622773032E00849C83 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FB5FE2747EE89005DF3A3 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		31A33754276CABFC00849C83 /* columnAndPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = columnAndPlane.swift; sourceTree = "<group>"; };
 		31A33758276E4E1A00849C83 /* roomEscape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roomEscape.cpp; sourceTree = "<group>"; };
 		31A3375B276F9A7400849C83 /* editTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editTable.swift; sourceTree = "<group>"; };
+		31A337602772FEA300849C83 /* 2583.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2583.swift; sourceTree = "<group>"; };
 		31AED8D02735738100310B96 /* 13458.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13458.cpp; sourceTree = "<group>"; };
 		31AED8D22735754400310B96 /* 14501.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14501.cpp; sourceTree = "<group>"; };
 		31AED8D427357FD300310B96 /* 3190.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3190.cpp; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		310297CC2767190900137931 /* 🎄December */ = {
 			isa = PBXGroup;
 			children = (
+				31A3375F2772FE8700849C83 /* 1222 */,
 				31A3375A276F9A6400849C83 /* 1220 */,
 				31A33757276E4DC200849C83 /* 1219 */,
 				31A33748276BB03600849C83 /* 1216 */,
@@ -449,6 +452,14 @@
 			path = 1220;
 			sourceTree = "<group>";
 		};
+		31A3375F2772FE8700849C83 /* 1222 */ = {
+			isa = PBXGroup;
+			children = (
+				31A337602772FEA300849C83 /* 2583.swift */,
+			);
+			path = 1222;
+			sourceTree = "<group>";
+		};
 		31AED8CF273572D500310B96 /* 1105 */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,7 +586,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A3375E277093D000849C83 /* template.cpp in Sources */,
+				31A337622773032E00849C83 /* main.swift in Sources */,
+				31A337612772FEA300849C83 /* 2583.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

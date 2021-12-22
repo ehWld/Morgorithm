@@ -7,8 +7,4 @@
 
 import Foundation
 
-var test: Set<Int> = [0, 1, 4, 3, 5, 2]
-
-for i in test {
-    print(i)
-}
+solve()
