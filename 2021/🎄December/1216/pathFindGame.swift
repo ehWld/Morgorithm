@@ -14,7 +14,7 @@ func upperBound(_ x: Int, level: Int) -> (x: Int, node: Int) {
     var right = nodes[level].count - 1
 
     while left < right {
-        var mid = (left + right) / 2
+        let mid = (left + right) / 2
         if x > nodes[level][mid].x { left = mid + 1 }
         else { right = mid - 1 }
     }
