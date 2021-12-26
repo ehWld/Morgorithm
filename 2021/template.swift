@@ -3,7 +3,7 @@
 
 import Foundation
 
-func readInt() -> [Int] {readLine()!.components(separatedBy: " ").map{Int(String($0))!}}
+func readInt() -> [Int] {readLine()!.split(separator: " ").map({Int(String($0))!})}
 func readStr() -> [String] {readLine()!.split(separator: " ").map{String($0)}}
 
 typealias pii = (Int, Int)
